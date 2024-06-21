@@ -1,0 +1,697 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/1.0.0/schema.json",
+  "name": "ReportSection1fb5d9b904a02537d191",
+  "displayName": "Pallets Details",
+  "displayOption": "FitToWidth",
+  "height": 720,
+  "width": 1280,
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "Filterd4b520d90d624d40c70c",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "pallet"
+              }
+            },
+            "Property": "# Pallets"
+          }
+        },
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "Filter61166526d95908413003",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "pallet"
+              }
+            },
+            "Property": "# Empty Pallets"
+          }
+        },
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "Filter4c9189a9312cb3d7310c",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "pallet"
+              }
+            },
+            "Property": "# Item Codes"
+          }
+        },
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "Filter1ab1b694285010a0a44c",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "pallet"
+              }
+            },
+            "Property": "Classification"
+          }
+        },
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "Filtere0c3ab6eb470d670019c",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "pallet"
+              }
+            },
+            "Property": "Code Size"
+          }
+        },
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "Filter16cd610569bd9910c94c",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "pallet"
+              }
+            },
+            "Property": "From"
+          }
+        },
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "Filterc19cab9e4cb83805d23a",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "pallet"
+              }
+            },
+            "Property": "Grade"
+          }
+        },
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "Filter29427f4c878821be6735",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "pallet"
+              }
+            },
+            "Property": "Item Code"
+          }
+        },
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "Filter1f1357c1083068934185",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "pallet"
+              }
+            },
+            "Property": "Item Code Status"
+          }
+        },
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "Filter7fc41460cc4530ac0a2e",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "pallet"
+              }
+            },
+            "Property": "Location"
+          }
+        },
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "Filter46c18846304e356de7ee",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "pallet"
+              }
+            },
+            "Property": "Lot"
+          }
+        },
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "Filtera578b7809b87641819ce",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "pallet"
+              }
+            },
+            "Property": "Quantity"
+          }
+        },
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "Filter612e34021e97804dad43",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "pallet"
+              }
+            },
+            "Property": "Quantity2"
+          }
+        },
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "Filter2b8982f62aedd6516b2b",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "pallet"
+              }
+            },
+            "Property": "Quantity3"
+          }
+        },
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "Filter32f0cf6e804518e84a02",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "pallet"
+              }
+            },
+            "Property": "Rack"
+          }
+        },
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "Filter04ae6e4107b44766335c",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "pallet"
+              }
+            },
+            "Property": "Returned Lebeling"
+          }
+        },
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "Filtere59065c25ee33a07b6b8",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "pallet"
+              }
+            },
+            "Property": "Store"
+          }
+        },
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "Filter9453b2c33ea811423baa",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "pallet"
+              }
+            },
+            "Property": "To"
+          }
+        },
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "Filter0a3ac948bd1e5323aa70",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "pallet"
+              }
+            },
+            "Property": "To2"
+          }
+        },
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "Filterfe7476d0e1da88c2b120",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "pallet"
+              }
+            },
+            "Property": "To3"
+          }
+        },
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "Filtereafb1274ea1029955a07",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "pallet"
+              }
+            },
+            "Property": "Unit Code"
+          }
+        },
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "Filter48a9be3c96961d0419ae",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "pallet"
+              }
+            },
+            "Property": "Weight"
+          }
+        },
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "Filter36eab9f8600c11351e87",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "pallet"
+              }
+            },
+            "Property": "Weight - Text"
+          }
+        },
+        "howCreated": "Drillthrough"
+      }
+    ]
+  },
+  "visibility": "HiddenInViewMode",
+  "pageBinding": {
+    "name": "Pod",
+    "type": "Drillthrough",
+    "parameters": [
+      {
+        "name": "Param_Filterd4b520d90d624d40c70c",
+        "boundFilter": "Filterd4b520d90d624d40c70c",
+        "fieldExpr": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "pallet"
+              }
+            },
+            "Property": "# Pallets"
+          }
+        }
+      },
+      {
+        "name": "Param_Filter61166526d95908413003",
+        "boundFilter": "Filter61166526d95908413003",
+        "fieldExpr": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "pallet"
+              }
+            },
+            "Property": "# Empty Pallets"
+          }
+        }
+      },
+      {
+        "name": "Param_Filter4c9189a9312cb3d7310c",
+        "boundFilter": "Filter4c9189a9312cb3d7310c",
+        "fieldExpr": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "pallet"
+              }
+            },
+            "Property": "# Item Codes"
+          }
+        }
+      },
+      {
+        "name": "Param_Filter1ab1b694285010a0a44c",
+        "boundFilter": "Filter1ab1b694285010a0a44c",
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "pallet"
+              }
+            },
+            "Property": "Classification"
+          }
+        }
+      },
+      {
+        "name": "Param_Filtere0c3ab6eb470d670019c",
+        "boundFilter": "Filtere0c3ab6eb470d670019c",
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "pallet"
+              }
+            },
+            "Property": "Code Size"
+          }
+        }
+      },
+      {
+        "name": "Param_Filter16cd610569bd9910c94c",
+        "boundFilter": "Filter16cd610569bd9910c94c",
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "pallet"
+              }
+            },
+            "Property": "From"
+          }
+        }
+      },
+      {
+        "name": "Param_Filterc19cab9e4cb83805d23a",
+        "boundFilter": "Filterc19cab9e4cb83805d23a",
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "pallet"
+              }
+            },
+            "Property": "Grade"
+          }
+        }
+      },
+      {
+        "name": "Param_Filter29427f4c878821be6735",
+        "boundFilter": "Filter29427f4c878821be6735",
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "pallet"
+              }
+            },
+            "Property": "Item Code"
+          }
+        }
+      },
+      {
+        "name": "Param_Filter1f1357c1083068934185",
+        "boundFilter": "Filter1f1357c1083068934185",
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "pallet"
+              }
+            },
+            "Property": "Item Code Status"
+          }
+        }
+      },
+      {
+        "name": "Param_Filter7fc41460cc4530ac0a2e",
+        "boundFilter": "Filter7fc41460cc4530ac0a2e",
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "pallet"
+              }
+            },
+            "Property": "Location"
+          }
+        }
+      },
+      {
+        "name": "Param_Filter46c18846304e356de7ee",
+        "boundFilter": "Filter46c18846304e356de7ee",
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "pallet"
+              }
+            },
+            "Property": "Lot"
+          }
+        }
+      },
+      {
+        "name": "Param_Filtera578b7809b87641819ce",
+        "boundFilter": "Filtera578b7809b87641819ce",
+        "asAggregation": true,
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "pallet"
+              }
+            },
+            "Property": "Quantity"
+          }
+        }
+      },
+      {
+        "name": "Param_Filter612e34021e97804dad43",
+        "boundFilter": "Filter612e34021e97804dad43",
+        "asAggregation": true,
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "pallet"
+              }
+            },
+            "Property": "Quantity2"
+          }
+        }
+      },
+      {
+        "name": "Param_Filter2b8982f62aedd6516b2b",
+        "boundFilter": "Filter2b8982f62aedd6516b2b",
+        "asAggregation": true,
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "pallet"
+              }
+            },
+            "Property": "Quantity3"
+          }
+        }
+      },
+      {
+        "name": "Param_Filter32f0cf6e804518e84a02",
+        "boundFilter": "Filter32f0cf6e804518e84a02",
+        "asAggregation": true,
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "pallet"
+              }
+            },
+            "Property": "Rack"
+          }
+        }
+      },
+      {
+        "name": "Param_Filter04ae6e4107b44766335c",
+        "boundFilter": "Filter04ae6e4107b44766335c",
+        "asAggregation": true,
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "pallet"
+              }
+            },
+            "Property": "Returned Lebeling"
+          }
+        }
+      },
+      {
+        "name": "Param_Filtere59065c25ee33a07b6b8",
+        "boundFilter": "Filtere59065c25ee33a07b6b8",
+        "asAggregation": true,
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "pallet"
+              }
+            },
+            "Property": "Store"
+          }
+        }
+      },
+      {
+        "name": "Param_Filter9453b2c33ea811423baa",
+        "boundFilter": "Filter9453b2c33ea811423baa",
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "pallet"
+              }
+            },
+            "Property": "To"
+          }
+        }
+      },
+      {
+        "name": "Param_Filter0a3ac948bd1e5323aa70",
+        "boundFilter": "Filter0a3ac948bd1e5323aa70",
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "pallet"
+              }
+            },
+            "Property": "To2"
+          }
+        }
+      },
+      {
+        "name": "Param_Filterfe7476d0e1da88c2b120",
+        "boundFilter": "Filterfe7476d0e1da88c2b120",
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "pallet"
+              }
+            },
+            "Property": "To3"
+          }
+        }
+      },
+      {
+        "name": "Param_Filtereafb1274ea1029955a07",
+        "boundFilter": "Filtereafb1274ea1029955a07",
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "pallet"
+              }
+            },
+            "Property": "Unit Code"
+          }
+        }
+      },
+      {
+        "name": "Param_Filter48a9be3c96961d0419ae",
+        "boundFilter": "Filter48a9be3c96961d0419ae",
+        "asAggregation": true,
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "pallet"
+              }
+            },
+            "Property": "Weight"
+          }
+        }
+      },
+      {
+        "name": "Param_Filter36eab9f8600c11351e87",
+        "boundFilter": "Filter36eab9f8600c11351e87",
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "pallet"
+              }
+            },
+            "Property": "Weight - Text"
+          }
+        }
+      }
+    ]
+  },
+  "objects": {
+    "background": [
+      {
+        "properties": {
+          "color": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "ThemeDataColor": {
+                    "ColorId": 0,
+                    "Percent": -0.1
+                  }
+                }
+              }
+            }
+          },
+          "transparency": {
+            "expr": {
+              "Literal": {
+                "Value": "50D"
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+}

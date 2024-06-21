@@ -1,0 +1,23 @@
+expression 'Errors in pallet' =
+		let
+		Source = pallet,
+		  #"Detected Type Mismatches" = let
+		    tableWithOnlyPrimitiveTypes = Table.SelectColumns(Source, Table.ColumnsOfType(Source, {type nullable number, type nullable text, type nullable logical, type nullable date, type nullable datetime, type nullable datetimezone, type nullable time, type nullable duration})),
+		    recordTypeFields = Type.RecordFields(Type.TableRow(Value.Type(tableWithOnlyPrimitiveTypes))),
+		    fieldNames = Record.FieldNames(recordTypeFields),
+		    fieldTypes = List.Transform(Record.ToList(recordTypeFields), each [Type]),
+		    pairs = List.Transform(List.Positions(fieldNames), (i) => {fieldNames{i}, (v) => if v = null or Value.Is(v, fieldTypes{i}) then v else error [Message = "The type of the value does not match the type of the column.", Detail = v], fieldTypes{i}})
+		in
+		    Table.TransformColumns(Source, pairs),
+		  #"Added Index" = Table.AddIndexColumn(#"Detected Type Mismatches", "Row Number" ,1),
+		  #"Kept Errors" = Table.SelectRowsWithErrors(#"Added Index", {"Code", "Desc", "Lot", "Quantity", "Actual", "Current balance", "Current balanceTon", "Insp.Rec", "Pallet no", "Decision", "Grade", "From", "To", "Location", "Voucher ", "Date", "Unit Code", "Weight", "Date2", "Voucher 2", "To2", "Quantity2", "Returned Lebeling", "Lot2", "Date3", "Voucher 3", "To3", "Quantity3", "Voucher 4", "Lot RFG2", "Matching", "Concat", "Diff", "Store", "Rack"}),
+		  #"Reordered Columns" = Table.ReorderColumns(#"Kept Errors", {"Row Number", "Code", "Desc", "Lot", "Quantity", "Actual", "Current balance", "Current balanceTon", "Insp.Rec", "Pallet no", "Decision", "Grade", "From", "To", "Location", "Voucher ", "Date", "Unit Code", "Weight", "Date2", "Voucher 2", "To2", "Quantity2", "Returned Lebeling", "Lot2", "Date3", "Voucher 3", "To3", "Quantity3", "Voucher 4", "Lot RFG2", "Matching", "Concat", "Diff", "Store", "Rack"})
+		in
+		    #"Reordered Columns"
+	lineageTag: 2435069d-fef9-4999-8439-1d306ea632c0
+	queryGroup: 'Query Errors - 17/02/2024 00:41:53'
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

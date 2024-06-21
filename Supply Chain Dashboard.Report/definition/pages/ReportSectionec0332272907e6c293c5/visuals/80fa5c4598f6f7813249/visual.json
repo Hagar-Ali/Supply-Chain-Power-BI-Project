@@ -1,0 +1,558 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.0.0/schema.json",
+  "name": "80fa5c4598f6f7813249",
+  "position": {
+    "x": 7.3846153846153841,
+    "y": 81.230769230769226,
+    "z": 1000,
+    "width": 1255.3846153846152,
+    "height": 299.81538461538457,
+    "tabOrder": 1000
+  },
+  "visual": {
+    "visualType": "sankey02300D1BE6F5427989F3DE31CCA9E0F32020",
+    "query": {
+      "queryState": {
+        "Destination": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "pallet"
+                    }
+                  },
+                  "Property": "To"
+                }
+              },
+              "queryRef": "pallet.To",
+              "nativeQueryRef": "To"
+            }
+          ]
+        },
+        "Source": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "pallet"
+                    }
+                  },
+                  "Property": "From"
+                }
+              },
+              "queryRef": "pallet.From",
+              "nativeQueryRef": "From"
+            }
+          ]
+        },
+        "Weight": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "pallet"
+                    }
+                  },
+                  "Property": "# Pallets"
+                }
+              },
+              "queryRef": "pallet.# Pallets",
+              "nativeQueryRef": "# Pallets"
+            }
+          ]
+        }
+      }
+    },
+    "objects": {
+      "nodes": [
+        {
+          "properties": {
+            "fill": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#B9DD8A'"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "scopeId": {
+                  "Comparison": {
+                    "ComparisonKind": 0,
+                    "Left": {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Entity": "pallet"
+                          }
+                        },
+                        "Property": "From"
+                      }
+                    },
+                    "Right": {
+                      "Literal": {
+                        "Value": "'FAC'"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "properties": {
+            "fill": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "scopeId": {
+                  "Comparison": {
+                    "ComparisonKind": 0,
+                    "Left": {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Entity": "pallet"
+                          }
+                        },
+                        "Property": "From"
+                      }
+                    },
+                    "Right": {
+                      "Literal": {
+                        "Value": "'بدون'"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "properties": {
+            "fill": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#006CB7'"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "scopeId": {
+                  "Comparison": {
+                    "ComparisonKind": 0,
+                    "Left": {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Entity": "pallet"
+                          }
+                        },
+                        "Property": "From"
+                      }
+                    },
+                    "Right": {
+                      "Literal": {
+                        "Value": "'Labeling'"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "scopeId": {
+                  "Comparison": {
+                    "ComparisonKind": 0,
+                    "Left": {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Entity": "pallet"
+                          }
+                        },
+                        "Property": "To"
+                      }
+                    },
+                    "Right": {
+                      "Literal": {
+                        "Value": "'october'"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "properties": {
+            "fill": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#006CB7'"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "scopeId": {
+                  "Comparison": {
+                    "ComparisonKind": 0,
+                    "Left": {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Entity": "pallet"
+                          }
+                        },
+                        "Property": "From"
+                      }
+                    },
+                    "Right": {
+                      "Literal": {
+                        "Value": "'FAC'"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "scopeId": {
+                  "Comparison": {
+                    "ComparisonKind": 0,
+                    "Left": {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Entity": "pallet"
+                          }
+                        },
+                        "Property": "To"
+                      }
+                    },
+                    "Right": {
+                      "Literal": {
+                        "Value": "'Al-Qanatir WH'"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "properties": {
+            "fill": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#006CB7'"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "scopeId": {
+                  "Comparison": {
+                    "ComparisonKind": 0,
+                    "Left": {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Entity": "pallet"
+                          }
+                        },
+                        "Property": "From"
+                      }
+                    },
+                    "Right": {
+                      "Literal": {
+                        "Value": "'FAC'"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "scopeId": {
+                  "Comparison": {
+                    "ComparisonKind": 0,
+                    "Left": {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Entity": "pallet"
+                          }
+                        },
+                        "Property": "To"
+                      }
+                    },
+                    "Right": {
+                      "Literal": {
+                        "Value": "'AlWataneya'"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "properties": {
+            "fill": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#006CB7'"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "scopeId": {
+                  "Comparison": {
+                    "ComparisonKind": 0,
+                    "Left": {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Entity": "pallet"
+                          }
+                        },
+                        "Property": "From"
+                      }
+                    },
+                    "Right": {
+                      "Literal": {
+                        "Value": "'FAC'"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "scopeId": {
+                  "Comparison": {
+                    "ComparisonKind": 0,
+                    "Left": {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Entity": "pallet"
+                          }
+                        },
+                        "Property": "To"
+                      }
+                    },
+                    "Right": {
+                      "Literal": {
+                        "Value": "'AL-Khairat'"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "properties": {
+            "fill": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#006CB7'"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "scopeId": {
+                  "Comparison": {
+                    "ComparisonKind": 0,
+                    "Left": {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Entity": "pallet"
+                          }
+                        },
+                        "Property": "From"
+                      }
+                    },
+                    "Right": {
+                      "Literal": {
+                        "Value": "'Giza Store'"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "properties": {
+            "fill": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#006CB7'"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "scopeId": {
+                  "Comparison": {
+                    "ComparisonKind": 0,
+                    "Left": {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Entity": "pallet"
+                          }
+                        },
+                        "Property": "From"
+                      }
+                    },
+                    "Right": {
+                      "Literal": {
+                        "Value": "null"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "properties": {
+            "fill": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#B9DD8A'"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "scopeId": {
+                  "Comparison": {
+                    "ComparisonKind": 0,
+                    "Left": {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Entity": "pallet"
+                          }
+                        },
+                        "Property": "From"
+                      }
+                    },
+                    "Right": {
+                      "Literal": {
+                        "Value": "'Labeling'"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "bold": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "fontFamily": {
+              "expr": {
+                "Literal": {
+                  "Value": "'''Lucida Sans Unicode'''"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

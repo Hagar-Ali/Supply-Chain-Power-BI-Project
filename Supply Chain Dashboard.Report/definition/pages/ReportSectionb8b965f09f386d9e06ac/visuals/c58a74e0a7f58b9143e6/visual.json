@@ -1,0 +1,55 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.0.0/schema.json",
+  "name": "c58a74e0a7f58b9143e6",
+  "position": {
+    "x": 363.13043478260869,
+    "y": 214.2608695652174,
+    "z": 2000,
+    "width": 553.73913043478262,
+    "height": 129.39130434782609,
+    "tabOrder": 1000
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Inspiring you to eat vegetables and fruits for a healthier life ",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontFamily": "Arial",
+                      "fontSize": "24pt",
+                      "color": "#006cb7"
+                    }
+                  }
+                ],
+                "horizontalTextAlignment": "center"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

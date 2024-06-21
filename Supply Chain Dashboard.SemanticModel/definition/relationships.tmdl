@@ -1,0 +1,15 @@
+relationship 2dcbda8a-e8d5-4679-97b7-fe88e5dd2fbb
+	joinOnDateBehavior: datePartOnly
+	fromColumn: pallet.Date
+	toColumn: LocalDateTable_6af8e422-339a-426b-bd73-a5b243514b8a.Date
+
+relationship 2cf191e4-9502-4df4-849a-b71976c38af5
+	joinOnDateBehavior: datePartOnly
+	fromColumn: pallet.Date2
+	toColumn: LocalDateTable_2827b800-4f6b-44c3-bc2e-2747e822dc9d.Date
+
+relationship d43559ee-ac4c-432b-a9ff-46a66887e3ee
+	joinOnDateBehavior: datePartOnly
+	fromColumn: pallet.Date3
+	toColumn: LocalDateTable_085b150a-3f07-494c-ba2a-1437f21fc932.Date
+
